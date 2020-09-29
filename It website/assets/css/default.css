@@ -1,0 +1,86 @@
+:root {
+	--animation-delay: : 2s;
+}
+
+
+
+.sm-body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: black;
+}
+
+.centre {
+
+  margin-left: 45%;
+  margin-top: 200px;
+}
+
+
+.box {
+	width: 106px;
+	height: 306px;
+
+	position:absolute ;
+	overflow: visible;
+	float: left;
+}
+
+.offsetside{
+  margin-left:-20px;
+}
+
+.offsettop{
+  margin-top: -200px
+}
+
+.test{
+  margin-top:1000px;
+}
+
+.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+.r {
+  position: relative;
+}
+
+@keyframes float {
+  0%   {margin-top: 0;}
+  50%  {margin-top:100;}
+  100% {margin-top: 0;}
+}
+
+.float1{
+
+  animation: float 3s infinite;
+	animation-delay: 0ms;
+}
+
+.float2{
+
+  animation: float 3s infinite;
+	animation-delay: 500ms;
+}
+
+.float3{
+
+  animation: float 3s infinite;
+	animation-delay: 1000ms;
+}
+
+.float4{
+
+  animation: float 3s infinite;
+	animation-delay: 1500ms;
+}
+
+
+.red {
+  animation: float 3s ease alternate infinite;
+  animation-delay: var(--animation-delay);
+}
