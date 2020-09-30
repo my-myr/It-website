@@ -1,0 +1,119 @@
+img{
+	width:100%;
+}
+
+.sm-body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: black;
+	min-height: 300vh;
+}
+
+.gradient{
+
+}
+
+
+/* @keyframes float {
+  0%   {margin-top: 0;}
+  50%  {margin-top:100;}
+  100% {margin-top: 0;} */
+}
+
+.float1{
+
+  animation: float 3s infinite;
+	animation-delay: 0ms;
+}
+
+
+.sm-balloonwidth{
+	width:10%;
+}
+
+.sm-balloon--row2{
+ padding-top: 10vh;
+}
+
+.sm-balloon--1{
+	margin-left:0%;
+	animation: float 3s 1s infinite;
+	animation-timing-function: cubic-bezier(.45,.08,.64,.95);
+
+}
+
+.sm-balloon--2{
+	margin-left:5%;
+	animation: float 2s 0s infinite;
+	animation-timing-function: cubic-bezier(.45,.08,.64,.95);
+
+}
+
+.sm-balloon--3{
+	margin-left:10%;
+	animation: float 3s 0.5s infinite;
+	animation-timing-function: cubic-bezier(.45,.08,.64,.95);
+}
+
+.sm-balloon--4{
+	margin-left:15%;
+	animation: float 4s 0s infinite;
+	animation-timing-function: cubic-bezier(.45,.08,.64,.95);
+}
+
+.sm-balloon--5{
+	margin-left:20%;
+	animation: float 3s 0s infinite;
+	animation-timing-function: cubic-bezier(.45,.08,.64,.95);
+}
+.sm-balloon--6{
+	margin-left:25%;
+	animation: float 1.5s 0s infinite;
+	animation-timing-function: cubic-bezier(.45,.08,.64,.95);
+}
+
+.sm-balloon--7{
+	margin-left:30%;
+	animation: float 1.5s 0.5s infinite;
+	animation-timing-function: cubic-bezier(.45,.08,.64,.95);
+}
+
+.sm-balloon--8{
+	margin-left:35%;
+	animation: float 4s 0.5s infinite;
+	animation-timing-function: cubic-bezier(.45,.08,.64,.95);
+}
+
+.sm-balloon--9{
+	margin-left:40%;
+	animation: float 2s 1s infinite;
+	animation-timing-function: cubic-bezier(.45,.08,.64,.95);
+}
+
+.sm-balloon--10{
+	margin-left:45%;
+	animation: float 2s 0.5s infinite;
+	animation-timing-function: cubic-bezier(.45,.08,.64,.95);
+}
+
+
+.sm-testred{
+	background:red;
+}
+
+.sm-testblue{
+	background-color: blue;
+}
+
+.sm-margin--small{
+	margin-top:100;
+}
+
+.sm-margin--medium{
+	padding-top:150;
+}
+
+.sm-margin--large{
+	margin-top:30vh;
+}
